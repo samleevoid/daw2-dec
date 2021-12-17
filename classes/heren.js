@@ -20,7 +20,7 @@ class Client {
 // Heredem la casse Client a la classe Empresa (empresa seria una classe filla de la clase client)
 
 // recordatori prototypes:
-// Object.create... era bastant més farragós.
+// Amb prototypes utilitzavem Object.create - era bastant més farragós.
 
 class Empre extends Client {
   constructor(name, surname, email, company) {
